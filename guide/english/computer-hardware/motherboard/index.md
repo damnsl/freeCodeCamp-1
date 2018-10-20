@@ -18,9 +18,15 @@ If you were to open up your computer and take out the motherboard, you would pro
 To understand how computers work, you don't need to know every single part of the motherboard. However, it is good to know some of the more important parts and how the motherboard connects the various parts of a computer system together. Here are some of the typical parts:
 
 - A CPU socket - the actual CPU is directly soldered onto the socket. Since high speed CPUs generate a lot of heat, there are heat sinks and mounting points for fans right next to the CPU socket.
+![CPU Socket](https://upload.wikimedia.org/wikipedia/commons/0/05/CPU_Socket_775_T.jpg)
+
   Take note that CPUs only support a single socket type so it mus match with the motherboards socket to work. Socket types usually change every few generations and it also varies per label(consumer-grade CPUs, HEDT, server CPUs)
-- A power connector to distribute power to the CPU and other components.
+- A power connector to distribute power to the CPU and other components. If you find your computer not booting at all, Check the power sockets to the CPU. (the one with 4 pins)
+
+![Power Connectors](https://upload.wikimedia.org/wikipedia/commons/e/e6/ATX_Power_connectors_24pin_8pin_4pin_Motherboard.jpg)
+
 - Slots for the system's main memory, typically in the form of DRAM chips.
+![Slots](https://upload.wikimedia.org/wikipedia/commons/8/82/DDR3_RAM_slots_%E2%80%93_dual_channel-top_oblique_PNr%C2%B00302.jpg)
 - A chip forms an interface between the CPU, the main memory and other components. On many types of motherboards, this is referred to as the Northbridge. This chip also contains a large heat sink. In recent years, features of the Northbridge have been increasingly integrated into the CPU itself.
 - A second chip controls the input and output (I/O) functions. It is not connected directly to the CPU but to the Northbridge. This I/O controller is referred to as the Southbridge. The Northbridge and Southbridge combined are referred to as the chipset.
 - Several connectors, which provide the physical interface between input and output devices and the motherboard. The Southbridge handles these connections.
